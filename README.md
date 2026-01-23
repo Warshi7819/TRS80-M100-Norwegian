@@ -5,7 +5,7 @@ As you can see we could buy real Norwegian versions of the TRS-80 Model 100 back
 Model number: 
 
 ## ROM Dump
-With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script, the raw output (raw_output.txt) of the script, the hexified version (hex_version.txt) and the ASCIIfied version (ascii_version.txt) is available in the ROM folder if you're curious like me. 
+With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script (RDUMP.DO), the raw output (raw_output.txt) of the script, the hexified version (hex_version.txt) and the ASCIIfied version (ascii_version.txt) is available in the ROM folder if you're curious like me. 
 
 ```
 10 REM RAM Dump Utility by Clinton Reddekop (January 2026)
