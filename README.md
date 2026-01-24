@@ -1,5 +1,19 @@
 # The Norwegian TRS80 Model 100
-PICTURE TBD
+
+<table>
+  <tr>
+    <td>
+        <a href="IMAGES/Unit_Front.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Unit_Front.png" alt="Front Of The Unit">
+        </a>
+    </td>
+    <td>
+        <a href="IMAGES/Unit_Back.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Unit_Back.png" alt="Back Of The Unit">
+        </a>
+    </td>
+  </tr>
+</table>
 
 As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company Televerket in the 80's.
 
