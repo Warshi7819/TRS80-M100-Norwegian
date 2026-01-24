@@ -5,25 +5,25 @@ As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 ba
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
 
-## Norwegian Packaging/Pamphlet
-Larger scans of the Pamphlet (Get Started Guide) and pictures of the box is included in the images folder of this repository. 
+## Norwegian Pamphlet
+This pamphlet in Norwegian was included with the unit. It basically is a Quick Start Guide that explains the most important functions. With regards to BASIC it doesn't tell you much other than how to set the Date, Day and Time. The full Tandy TRS-80 Model 100 manual was also included (English version). 
 
 <table>
   <!-- Row 1 -->
   <tr>
-    <th><img src="" /></th>
-    <th>Header 2</th>
-    <th>Header 3</th>
-    <th>Header 4</th>
-    <th>Header 5</th>
+    <th><img src="IMAGES/Pamphlet 01.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 02.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 03.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 04.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 05.png" height="300px"/></th>
   </tr>
   <!-- Row 2 -->
   <tr>
-    <td>Data 1A</td>
-    <td>Data 1B</td>
-    <td>Data 1C</td>
-    <td>Data 1D</td>
-    <td>Data 1E</td>
+    <td><img src="IMAGES/Pamphlet 06.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 07.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 08.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 09.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 10.png" height="300px"/></td>
   </tr>
 </table>
 
