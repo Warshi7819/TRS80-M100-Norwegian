@@ -1,12 +1,12 @@
 # The Norwegian TRS80 Model 100
 PICTURE TBD
 
-As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company at the time. Custom mfd. in Japan for Tandy Corporation. 
+As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company Televerket in the 80's.
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
 
 ## Norwegian Pamphlet
-This pamphlet in Norwegian was included with the unit. It basically is a Quick Start Guide that explains the most important functions. With regards to BASIC it doesn't tell you much other than how to set the Date, Day and Time. The full Tandy TRS-80 Model 100 manual was also included (English version). 
+This pamphlet in Norwegian was included with the unit. It's basically a Quick Start Guide that explains the most important functions. With regards to BASIC it doesn't tell you much other than how to set the Date, Day and Time. The full RadioShack TRS-80 Model 100 manual was also included (English version). 
 
 <table>
   <!-- Row 1 -->
@@ -35,29 +35,29 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
     <td>
       <img src="IMAGES/Box_Left.png" height="200px"/>
       <br/>
-      Left Side
+      <center>Left Side</center>
     </td>
     <td>
       <img src="IMAGES/Box_Front.png" height="200px" />
       <br/>
-      Front
+      <center>Front</center>
     </td>
     <td>
       <img src="IMAGES/Box_Right.png" height="200px" />
       <br/>
-      Right Side
+      <center>Right Side</center>
     </td>
     <td>
       <img src="IMAGES/Box_Back.png" height="200px" />
       <br/>
-      Back
+      <center>Back</center>
     </td>
   </tr>
   <tr>
     <td colspan="4">
       <img src="IMAGES/Box_Top.png" height="200px" />
       <br/>
-      Top
+      <center>Top</center>
     </td>
   </tr>
 </table>
@@ -66,15 +66,18 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 > The bottom of the box had the same light blue colour as the rest of the box. Nothing else.
 
 ## What Was Included?
-The unit itself came in a nice box as detailed above. In the box I got the following was present:
-* The Norwegian Get Started Guid (Pamphlet)
+In addition to the unit itself, the following was present in the box:
+* The Norwegian Get Started Guide (Pamphlet)
 * The TRS-80 Model 100 Quick Reference Guide (English) - [Available Here](https://manx-docs.org/mirror/harte/Radio%20Shack/TRS-80%20Model%20100%20Quick%20Reference%20Guide.pdf)
 * The full TRS-80 Model 100 Manual from Radio Shack (English language) - [Available Here](https://archive.org/details/trs-80-m-100-user-guide)
 * The needed cables to hook it up to the phone line of the time
 * A Cassette - See section below.
 
+> [!NOTE]
+> Although it seems like the unit is complete in box I have to state that I bought this second hand. Thus there might have been more included from the factory back in the day. One thing I would like to have had included is the cable for a cassette deck. Luckily the [brick of a manual](https://archive.org/details/trs-80-m-100-user-guide/page/206/mode/2up) from RadioShack also details the pinout for the cassette plug. It should therefore be easy enough to either verify that it's the same as my TRS-80 CoCo machine or at the very least enable me to build one.  
+
 ## The Cassette
-Page 9 and 10 of the pamphlet tells the story behind the cassette. 
+Page 9 and 10 of the pamphlet above tells the story behind the cassette. 
 
 ### Program To Choose Character Set
 To use Norwegian or English character set (ASCII-code) you will have to load the programs RESRAM and INSTAL. 
@@ -144,4 +147,4 @@ The script probably took close to 30 minutes to complete at 1200 bauds over seri
 > "Tillatelse nr." translates to Permit number. 
 
 ## IMAGES
-I used the [PerspectiveFix](https://oathanrex.github.io/perspective-fix/) free online tool to straighten out the images of the pamphlet. The original images are there as well if I at some point find a better free tool. But quite happy with the results!
+I used the [PerspectiveFix](https://oathanrex.github.io/perspective-fix/) free online tool to straighten out the images of the pamphlet and the box. The original images are there as well if I at some point find a better free tool. But quite happy with the results!
