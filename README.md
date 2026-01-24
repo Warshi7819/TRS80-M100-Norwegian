@@ -20,7 +20,7 @@ With the help of the people on the [M100 maling](http://lists.bitchin100.com/lis
 The user B9 then helped me to convert the hex file to a rom file using the unix command **xxd -r -p  < output_hex.txt  > m100.norway.rom**. The resulting rom file (m100.norway.rom) can also be found in the ROM folder of this repository. 
 
 ```
-10 REM RAM Dump Utility by Clinton Reddekop (January 2026)
+10 REM ROM Dump Utility by Clinton Reddekop (January 2026)
 20 REM       Dumps the contents of RAM over serial
 100 open "com:58N1E" for output as 1
 120 sum=0
