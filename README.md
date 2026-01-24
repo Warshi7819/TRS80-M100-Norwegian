@@ -15,7 +15,11 @@ This pamphlet in Norwegian was included with the unit. It's basically a Quick St
 <table>
   <!-- Row 1 -->
   <tr>
-    <th><img src="IMAGES/Pamphlet 01.png" height="300px"/></th>
+    <th>
+        <a href="IMAGES/Pamphlet 01.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 01.png" alt="Page 1">
+        </a>
+    </th>
     <th><img src="IMAGES/Pamphlet 02.png" height="300px"/></th>
     <th><img src="IMAGES/Pamphlet 03.png" height="300px"/></th>
     <th><img src="IMAGES/Pamphlet 04.png" height="300px"/></th>
