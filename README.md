@@ -213,7 +213,7 @@ The script probably took close to 30 minutes to complete at 1200 bauds over seri
 **CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION**
 
 > [!NOTE]
-> "Tillatelse nr." translates to Permit number. 
+> "Tillatelse nr." translates to Permit number. The number suggest that the permit was secured in 1984.
 
 ## IMAGES
 I used the [PerspectiveFix](https://oathanrex.github.io/perspective-fix/) free online tool to straighten out the images of the pamphlet and the box. The original images are there as well if I at some point find a better free tool. But quite happy with the results!
