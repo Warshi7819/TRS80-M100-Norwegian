@@ -20,7 +20,7 @@ As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 ba
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
 
 ## Norwegian Pamphlet
-This pamphlet in Norwegian was included with the unit. It's basically a Quick Start Guide that explains the most important functions. With regards to BASIC it doesn't tell you much other than how to set the Date, Day and Time. The full RadioShack TRS-80 Model 100 manual was also included (English version). 
+This pamphlet in Norwegian was included with the unit. It's basically a Quick Start Guide that explains the most important functions.  
 
 <table>
   <!-- Row 1 -->
