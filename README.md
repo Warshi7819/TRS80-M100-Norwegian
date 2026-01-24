@@ -73,29 +73,39 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 <table>
   <tr>
     <td>
-      <img src="IMAGES/Box_Left.png" height="200px"/>
+        <a href="IMAGES/Box_Left.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Box_Left.png" alt="Box Left Side">
+        </a>
       <br/>
       <center>Left Side</center>
     </td>
     <td>
-      <img src="IMAGES/Box_Front.png" height="200px" />
+        <a href="IMAGES/Box_Front.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Box_Front.png" alt="Box Front">
+        </a>
       <br/>
       <center>Front</center>
     </td>
     <td>
-      <img src="IMAGES/Box_Right.png" height="200px" />
+        <a href="IMAGES/Box_Right.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Box_Right.png" alt="Box Right Side">
+        </a>
       <br/>
       <center>Right Side</center>
     </td>
     <td>
-      <img src="IMAGES/Box_Back.png" height="200px" />
+        <a href="IMAGES/Box_Back.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Box_Back.png" alt="Box Back">
+        </a>
       <br/>
       <center>Back</center>
     </td>
   </tr>
   <tr>
     <td colspan="4">
-      <img src="IMAGES/Box_Top.png" height="200px" />
+        <a href="IMAGES/Box_Top.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Box_Top.png" alt="Box Top">
+        </a>
       <br/>
       <center>Top</center>
     </td>
