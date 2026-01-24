@@ -35,29 +35,29 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
     <td>
       <img src="IMAGES/Box_Left.png" height="200px"/>
       <br/>
-      Left Side
+      <center>Left Side</center>
     </td>
     <td>
       <img src="IMAGES/Box_Front.png" height="200px" />
       <br/>
-      Front
+      <center>Front</center>
     </td>
     <td>
       <img src="IMAGES/Box_Right.png" height="200px" />
       <br/>
-      Right Side
+      <center>Right Side</center>
     </td>
     <td>
       <img src="IMAGES/Box_Back.png" height="200px" />
       <br/>
-      Back
+      <center>Back</center>
     </td>
   </tr>
   <tr>
     <td colspan="4">
       <img src="IMAGES/Box_Top.png" height="200px" />
       <br/>
-      Top
+      <center>Top</center>
     </td>
   </tr>
 </table>
