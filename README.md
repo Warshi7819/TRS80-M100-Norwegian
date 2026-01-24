@@ -1,18 +1,9 @@
 # The Norwegian TRS80 Model 100
 PICTURE TBD
-As you can see we could buy real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company at the time. 
+
+As you can see we could buy real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company at the time. Custom mfd. in Japan for Tandy Corporation. 
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
-
-**MODEL**: TRS-80 Modell 100
-**SERIAL NO**: 409000149
-CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION 
-
-**Tele**
-**CAT NO**: 269-9101
-**TV NR** 25-132-4248
-**Tillatelse nr.**: 84/015
-
 
 ## Norwegian Pamphlet/Packaging
 AS part of the package when you bought this you got:
@@ -41,3 +32,21 @@ With the help of the people on the [M100 maling](http://lists.bitchin100.com/lis
 280 end
 ```
 The script probably took close to 30 minutes to complete at 1200 bauds over serial. But I had to run it slow to ensure I didn't loose data during transfer. 
+
+## VERSION INFO
+**MODEL**: TRS-80 Modell 100
+
+**SERIAL NO**: 409000149
+
+CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION 
+
+**Tele**
+
+**CAT NO**: 269-9101
+
+**TV NR** 25-132-4248
+
+**Tillatelse nr.**: 84/015
+
+> [!NOTE]
+> "Tillatelse nr." translates to Permit number. 
