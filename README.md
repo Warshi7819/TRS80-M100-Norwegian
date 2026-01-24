@@ -77,7 +77,25 @@ The unit itself came in a nice box as detailed above. In the box I got the follo
 ## The Cassette
 Page 9 and 10 of the pamphlet tells the story behind the cassette. 
 
-"
+### Program To Choose Character Set
+To use Norwegian or English character set (ASCII-code) you will have to load the programs RESRAM and INSTAL. 
+
+**Note:** RESRAM deletes existing programs and at the same time reserves 512 bytes for INSTAL. 
+
+Attach the cassette player and load the RESRAM cassette. Go to BASIC and type: CLOAD [ENTER]
+
+After the RESRAM program is loaded, stop the cassette player. Press F4 (Run). Go to BASIC again and type: CLOAD [ENTER]. Now the INSTAL program is loaded. Press F4 (Run). 
+
+Daily use:
+
+Go to BASIC and type CALL 32771 [ENTER]
+
+The following menu will be presented:
+
+<img src="IMAGES/charset menu.png" height="200px"/>
+
+> [!NOTE]
+> I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
 
 
 ## ROM Dump
