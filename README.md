@@ -5,14 +5,21 @@ As you can see we could buy real Norwegian versions of the TRS-80 Model 100 back
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
 
-## Norwegian Pamphlet/Packaging
-AS part of the package when you bought this you got:
-* A nicely nationalized packaging
-* A Norwegian pamphlet - Get Started Guid
-* The massive brick of a manual from Tandy (in English)
-* Needed cables to hook it up to the phone lines of the time
+## Norwegian Packaging/Pamphlet
+Larger scans of the Pamphlet (Get Started Guide) and pictures of the box is included in the images folder of this repository. 
 
-Scan of the Pamphlet and pictures of the box is included in the images folder of this repository. 
+
+
+## What Was Included?
+The unit itself came in a nice box as detailed above. In the box I got the following was present:
+* The Norwegian Get Started Guid (Pamphlet)
+* The full TRS-80 Model 100 Manual from Tandy (English language)
+* The needed cables to hook it up to the phone line of the time
+* A Cassette - See section below.
+
+## The Cassette
+INFO GOES HERE
+
 
 ## ROM Dump
 With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script (RDUMP.DO), the raw output (raw_output.txt) of the script and the hexified version (hex_version.txt) is available in the ROM folder. The hexified version was created by myself by reading each byte value into a python script and then outputing each byte value as hex pairs using the following conversion: **format(int(value), '02X')**.
