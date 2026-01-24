@@ -120,19 +120,26 @@ The user B9 then helped me to convert the hex file to a rom file using the unix 
 The script probably took close to 30 minutes to complete at 1200 bauds over serial. But I had to run it slow to ensure I didn't loose data during transfer. 
 
 ## VERSION INFO
-**MODEL**: TRS-80 Modell 100
+<table>
+  <tr>
+    <td><b>Model</b></td>
+    <td>TRS-80 Modell 100</td>
+    <td><b>Serial NO</b></td>
+    <td>409000149</td>
+  </tr>
+  <tr>
+    <td><b>CAT NO</b></td>
+    <td>269-9101</td>
+    <td><b>TV NR</b></td>
+    <td>25-132-4248</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Tillatelse nr.</b></td>
+    <td colspan="2">84/015</td>
+  </tr>  
+</table>
 
-**SERIAL NO**: 409000149
-
-CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION 
-
-**Tele**
-
-**CAT NO**: 269-9101
-
-**TV NR** 25-132-4248
-
-**Tillatelse nr.**: 84/015
+**CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION**
 
 > [!NOTE]
 > "Tillatelse nr." translates to Permit number. 
