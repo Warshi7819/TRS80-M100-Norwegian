@@ -70,14 +70,33 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 ## What Was Included?
 The unit itself came in a nice box as detailed above. In the box I got the following was present:
 * The Norwegian Get Started Guid (Pamphlet)
-* The full TRS-80 Model 100 Manual from Tandy (English language)
+* The TRS-80 Model 100 Quick Reference Guide (English) - [Available Here](https://manx-docs.org/mirror/harte/Radio%20Shack/TRS-80%20Model%20100%20Quick%20Reference%20Guide.pdf)
+* The full TRS-80 Model 100 Manual from Radio Shack (English language) - [Available Here](https://archive.org/details/trs-80-m-100-user-guide)
 * The needed cables to hook it up to the phone line of the time
 * A Cassette - See section below.
 
 ## The Cassette
 Page 9 and 10 of the pamphlet tells the story behind the cassette. 
 
-"
+### Program To Choose Character Set
+To use Norwegian or English character set (ASCII-code) you will have to load the programs RESRAM and INSTAL. 
+
+**Note:** RESRAM deletes existing programs and at the same time reserves 512 bytes for INSTAL. 
+
+Attach the cassette player and load the RESRAM cassette. Go to BASIC and type: CLOAD [ENTER]
+
+After the RESRAM program is loaded, stop the cassette player. Press F4 (Run). Go to BASIC again and type: CLOAD [ENTER]. Now the INSTAL program is loaded. Press F4 (Run). 
+
+Daily use:
+
+Go to BASIC and type CALL 32771 [ENTER]
+
+The following menu will be presented:
+
+<img src="IMAGES/charset menu.png" height="200px"/>
+
+> [!NOTE]
+> I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
 
 
 ## ROM Dump
@@ -102,19 +121,26 @@ The user B9 then helped me to convert the hex file to a rom file using the unix 
 The script probably took close to 30 minutes to complete at 1200 bauds over serial. But I had to run it slow to ensure I didn't loose data during transfer. 
 
 ## VERSION INFO
-**MODEL**: TRS-80 Modell 100
+<table>
+  <tr>
+    <td><b>Model</b></td>
+    <td>TRS-80 Modell 100</td>
+    <td><b>Serial NO</b></td>
+    <td>409000149</td>
+  </tr>
+  <tr>
+    <td><b>CAT NO</b></td>
+    <td>269-9101</td>
+    <td><b>TV NR</b></td>
+    <td>25-132-4248</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b>Tillatelse nr.</b></td>
+    <td colspan="2">84/015</td>
+  </tr>  
+</table>
 
-**SERIAL NO**: 409000149
-
-CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION 
-
-**Tele**
-
-**CAT NO**: 269-9101
-
-**TV NR** 25-132-4248
-
-**Tillatelse nr.**: 84/015
+**CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION**
 
 > [!NOTE]
 > "Tillatelse nr." translates to Permit number. 
