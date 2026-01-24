@@ -75,7 +75,9 @@ The unit itself came in a nice box as detailed above. In the box I got the follo
 * A Cassette - See section below.
 
 ## The Cassette
-INFO GOES HERE
+Page 9 and 10 of the pamphlet tells the story behind the cassette. 
+
+"
 
 
 ## ROM Dump
