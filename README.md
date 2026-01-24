@@ -59,3 +59,6 @@ CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION
 
 > [!NOTE]
 > "Tillatelse nr." translates to Permit number. 
+
+## IMAGES
+I used the [PerspectiveFix](https://oathanrex.github.io/perspective-fix/) free online tool to create the traighten out images for the pamphlet. The original images are there as well if I at some point find a better free tool.
