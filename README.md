@@ -77,6 +77,7 @@ In addition to the unit itself, the following was present in the box:
 > Although it seems like the unit is complete in box I have to state that I bought this second hand. Thus there might have been more included from the factory back in the day. One thing I would like to have had included is the cable for a cassette deck. Luckily the [brick of a manual](https://archive.org/details/trs-80-m-100-user-guide/page/206/mode/2up) from RadioShack also details the pinout for the cassette plug. It should therefore be easy enough to either verify that it's the same as my TRS-80 CoCo machine or at the very least enable me to build one.  
 
 ## The Cassette
+<center><img src="IMAGES/Cassette.png" height="200px"/></center>
 Page 9 and 10 of the pamphlet above tells the story behind the cassette. 
 
 ### Program To Choose Character Set
@@ -98,9 +99,6 @@ The following menu will be presented:
 
 > [!NOTE]
 > I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
-
-<center><img src="IMAGES/Cassette.png" height="200px"/></center>
-
 
 ## ROM Dump
 With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script (RDUMP.DO), the raw output (raw_output.txt) of the script and the hexified version (hex_version.txt) is available in the ROM folder. The hexified version was created by myself by reading each byte value into a python script and then outputing each byte value as hex pairs using the following conversion: **format(int(value), '02X')**.
