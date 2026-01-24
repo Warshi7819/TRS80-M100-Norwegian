@@ -77,7 +77,7 @@ In addition to the unit itself, the following was present in the box:
 > Although it seems like the unit is complete in box I have to state that I bought this second hand. Thus there might have been more included from the factory back in the day. One thing I would like to have had included is the cable for a cassette deck. Luckily the [brick of a manual](https://archive.org/details/trs-80-m-100-user-guide/page/206/mode/2up) from RadioShack also details the pinout for the cassette plug. It should therefore be easy enough to either verify that it's the same as my TRS-80 CoCo machine or at the very least enable me to build one.  
 
 ## The Cassette
-Page 9 and 10 of the pamphlet tells the story behind the cassette. 
+Page 9 and 10 of the pamphlet above tells the story behind the cassette. 
 
 ### Program To Choose Character Set
 To use Norwegian or English character set (ASCII-code) you will have to load the programs RESRAM and INSTAL. 
