@@ -148,7 +148,9 @@ Go to BASIC and type CALL 32771 [ENTER]
 
 The following menu will be presented:
 
-<img src="IMAGES/charset menu.png" height="200px"/>
+<a href="IMAGES/charset menu.png" target="_blank" rel="noopener noreferrer">
+    <img src="IMAGES/web/charset menu.png" alt="Char Set Menu">
+</a>
 
 > [!NOTE]
 > I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
