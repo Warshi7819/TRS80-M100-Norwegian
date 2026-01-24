@@ -1,6 +1,10 @@
 # The Norwegian TRS80 Model 100
 PICTURE TBD
 
+<a href="IMAGES/Box_Top.png" target="_blank" rel="noopener noreferrer">
+    <img src="IMAGES/Cassette.png" alt="Cassette" style="width:100px;height:auto;">
+</a>
+
 As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company Televerket in the 80's.
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
@@ -11,7 +15,11 @@ This pamphlet in Norwegian was included with the unit. It's basically a Quick St
 <table>
   <!-- Row 1 -->
   <tr>
-    <th><img src="IMAGES/Pamphlet 01.png" height="300px"/></th>
+    <th>
+        <a href="IMAGES/Pamphlet 01.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 01.png" alt="Page 1">
+        </a>
+    </th>
     <th><img src="IMAGES/Pamphlet 02.png" height="300px"/></th>
     <th><img src="IMAGES/Pamphlet 03.png" height="300px"/></th>
     <th><img src="IMAGES/Pamphlet 04.png" height="300px"/></th>
@@ -77,6 +85,7 @@ In addition to the unit itself, the following was present in the box:
 > Although it seems like the unit is complete in box I have to state that I bought this second hand. Thus there might have been more included from the factory back in the day. One thing I would like to have had included is the cable for a cassette deck. Luckily the [brick of a manual](https://archive.org/details/trs-80-m-100-user-guide/page/206/mode/2up) from RadioShack also details the pinout for the cassette plug. It should therefore be easy enough to either verify that it's the same as my TRS-80 CoCo machine or at the very least enable me to build one.  
 
 ## The Cassette
+<center><img src="IMAGES/Cassette.png" height="200px"/></center>
 Page 9 and 10 of the pamphlet above tells the story behind the cassette. 
 
 ### Program To Choose Character Set
@@ -98,7 +107,6 @@ The following menu will be presented:
 
 > [!NOTE]
 > I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
-
 
 ## ROM Dump
 With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script (RDUMP.DO), the raw output (raw_output.txt) of the script and the hexified version (hex_version.txt) is available in the ROM folder. The hexified version was created by myself by reading each byte value into a python script and then outputing each byte value as hex pairs using the following conversion: **format(int(value), '02X')**.
