@@ -1,6 +1,10 @@
 # The Norwegian TRS80 Model 100
 PICTURE TBD
 
+<a href="IMAGES/Box_Top.png" target="_blank" rel="noopener noreferrer">
+    <img src="IMAGES/Cassette.png" alt="Cassette" style="width:100px;height:auto;">
+</a>
+
 As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company Televerket in the 80's.
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
