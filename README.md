@@ -66,12 +66,15 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 > The bottom of the box had the same light blue colour as the rest of the box. Nothing else.
 
 ## What Was Included?
-The unit itself came in a nice box as detailed above. In the box I got second hand the following was present:
+In addition to the unit itself, the following was present in the box:
 * The Norwegian Get Started Guid (Pamphlet)
 * The TRS-80 Model 100 Quick Reference Guide (English) - [Available Here](https://manx-docs.org/mirror/harte/Radio%20Shack/TRS-80%20Model%20100%20Quick%20Reference%20Guide.pdf)
 * The full TRS-80 Model 100 Manual from Radio Shack (English language) - [Available Here](https://archive.org/details/trs-80-m-100-user-guide)
 * The needed cables to hook it up to the phone line of the time
 * A Cassette - See section below.
+
+> [!NOTE]
+> Although it seems like the unit is complete in box I have to state that I bought this second hand. Thus there might have been more included from the factory back in the day. One thing I would like to have had included is the cable for a cassette deck but I assume it's the same one as for the TRS-80 model 100. Luckily the [brick of a manual](https://archive.org/details/trs-80-m-100-user-guide/page/206/mode/2up) from Radio Shack also details the pinout for the cassette plug so it should be easy enough to verify that.  
 
 ## The Cassette
 Page 9 and 10 of the pamphlet tells the story behind the cassette. 
