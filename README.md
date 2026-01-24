@@ -82,7 +82,7 @@ This pamphlet in Norwegian was included with the unit. It's basically a Quick St
 </table>
 
 ## Packaging
-The box itself is also nationalized and you can see that it's the Norwegian TRS-80 model 100 that is depict on the front. Also, all text is in Norwegian.
+The box itself is also nationalized and you can see that it's the Norwegian TRS-80 model 100 that is depict on the front and back. Also, all text is in Norwegian.
 
 <table>
   <tr>
