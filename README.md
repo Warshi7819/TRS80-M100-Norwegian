@@ -70,7 +70,8 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 ## What Was Included?
 The unit itself came in a nice box as detailed above. In the box I got the following was present:
 * The Norwegian Get Started Guid (Pamphlet)
-* The full TRS-80 Model 100 Manual from Tandy (English language)
+* The TRS-80 Model 100 Quick Reference Guide (English) - [Available Here](https://manx-docs.org/mirror/harte/Radio%20Shack/TRS-80%20Model%20100%20Quick%20Reference%20Guide.pdf)
+* The full TRS-80 Model 100 Manual from Radio Shack (English language) - [Available Here](https://archive.org/details/trs-80-m-100-user-guide)
 * The needed cables to hook it up to the phone line of the time
 * A Cassette - See section below.
 
