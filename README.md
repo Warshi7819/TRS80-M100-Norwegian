@@ -5,10 +5,67 @@ As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 ba
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
 
-## Norwegian Packaging/Pamphlet
-Larger scans of the Pamphlet (Get Started Guide) and pictures of the box is included in the images folder of this repository. 
+## Norwegian Pamphlet
+This pamphlet in Norwegian was included with the unit. It basically is a Quick Start Guide that explains the most important functions. With regards to BASIC it doesn't tell you much other than how to set the Date, Day and Time. The full Tandy TRS-80 Model 100 manual was also included (English version). 
 
+<table>
+  <!-- Row 1 -->
+  <tr>
+    <th><img src="IMAGES/Pamphlet 01.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 02.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 03.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 04.png" height="300px"/></th>
+    <th><img src="IMAGES/Pamphlet 05.png" height="300px"/></th>
+  </tr>
+  <!-- Row 2 -->
+  <tr>
+    <td><img src="IMAGES/Pamphlet 06.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 07.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 08.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 09.png" height="300px"/></td>
+    <td><img src="IMAGES/Pamphlet 10.png" height="300px"/></td>
+  </tr>
+</table>
 
+## Packaging
+The box itself is also nationalized and you can see that it's the Norwegian TRS-80 model 100 that is depict on the front. Also, all text is in Norwegian.
+
+<table>
+  <tr>
+    <td>
+      <img src="" />
+      <br/>
+      Left Side
+    </td>
+    <td>
+      <img src="" />
+      <br/>
+      Front
+    </td>
+    <td>
+      <img src="" />
+      <br/>
+      Right Side
+    </td>
+    <td>
+      <img src="" />
+      <br/>
+      Back
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="" />
+      <br/>
+      Top
+    </td>
+    <td colspan="2">
+      <img src="" />
+      <br/>
+      Bottom
+    </td>
+  </tr>
+</table>
 
 ## What Was Included?
 The unit itself came in a nice box as detailed above. In the box I got the following was present:
@@ -18,7 +75,9 @@ The unit itself came in a nice box as detailed above. In the box I got the follo
 * A Cassette - See section below.
 
 ## The Cassette
-INFO GOES HERE
+Page 9 and 10 of the pamphlet tells the story behind the cassette. 
+
+"
 
 
 ## ROM Dump
