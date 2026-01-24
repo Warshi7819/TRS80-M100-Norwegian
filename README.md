@@ -27,6 +27,46 @@ This pamphlet in Norwegian was included with the unit. It basically is a Quick S
   </tr>
 </table>
 
+## Packaging
+The box itself is also nationalized and you can see that it's the Norwegian TRS-80 model 100 that is depict on the front. Also, all text is in Norwegian.
+
+<table>
+  <tr>
+    <td>
+      <img src="" />
+      <br/>
+      Left Side
+    </td>
+    <td>
+      <img src="" />
+      <br/>
+      Front
+    </td>
+    <td>
+      <img src="" />
+      <br/>
+      Right Side
+    </td>
+    <td>
+      <img src="" />
+      <br/>
+      Back
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <img src="" />
+      <br/>
+      Top
+    </td>
+    <td colspan="2">
+      <img src="" />
+      <br/>
+      Bottom
+    </td>
+  </tr>
+</table>
+
 ## What Was Included?
 The unit itself came in a nice box as detailed above. In the box I got the following was present:
 * The Norwegian Get Started Guid (Pamphlet)
