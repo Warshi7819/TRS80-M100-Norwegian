@@ -33,39 +33,37 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 <table>
   <tr>
     <td>
-      <img src="" />
+      <img src="IMAGES/Box_Left.png" height="200px"/>
       <br/>
       Left Side
     </td>
     <td>
-      <img src="" />
+      <img src="IMAGES/Box_Front.png" height="200px" />
       <br/>
       Front
     </td>
     <td>
-      <img src="" />
+      <img src="IMAGES/Box_Right.png" height="200px" />
       <br/>
       Right Side
     </td>
     <td>
-      <img src="" />
+      <img src="IMAGES/Box_Back.png" height="200px" />
       <br/>
       Back
     </td>
   </tr>
   <tr>
-    <td colspan="2">
-      <img src="" />
+    <td colspan="4">
+      <img src="IMAGES/Box_Top.png" height="200px" />
       <br/>
       Top
     </td>
-    <td colspan="2">
-      <img src="" />
-      <br/>
-      Bottom
-    </td>
   </tr>
 </table>
+
+> [!NOTE]
+> The bottom of the box had the same light blue colour as the rest of the box. Nothing else.
 
 ## What Was Included?
 The unit itself came in a nice box as detailed above. In the box I got the following was present:
