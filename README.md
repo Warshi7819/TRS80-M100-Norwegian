@@ -8,7 +8,24 @@ As I was working on and documenting my simple program [M100Link](https://github.
 ## Norwegian Packaging/Pamphlet
 Larger scans of the Pamphlet (Get Started Guide) and pictures of the box is included in the images folder of this repository. 
 
-
+<table>
+  <!-- Row 1 -->
+  <tr>
+    <th><img src="" /></th>
+    <th>Header 2</th>
+    <th>Header 3</th>
+    <th>Header 4</th>
+    <th>Header 5</th>
+  </tr>
+  <!-- Row 2 -->
+  <tr>
+    <td>Data 1A</td>
+    <td>Data 1B</td>
+    <td>Data 1C</td>
+    <td>Data 1D</td>
+    <td>Data 1E</td>
+  </tr>
+</table>
 
 ## What Was Included?
 The unit itself came in a nice box as detailed above. In the box I got the following was present:
