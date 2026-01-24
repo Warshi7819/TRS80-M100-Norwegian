@@ -1,10 +1,6 @@
 # The Norwegian TRS80 Model 100
 PICTURE TBD
 
-<a href="IMAGES/Box_Top.png" target="_blank" rel="noopener noreferrer">
-    <img src="IMAGES/Cassette.png" alt="Cassette" style="width:100px;height:auto;">
-</a>
-
 As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 back in the day! All with the beautiful ÆØÅ characters and also being able to input the date in our native toung as DD/MM/YY. The logo **Tele** was the logo of our national phone company Televerket in the 80's.
 
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
@@ -20,18 +16,54 @@ This pamphlet in Norwegian was included with the unit. It's basically a Quick St
             <img src="IMAGES/web/Pamphlet 01.png" alt="Page 1">
         </a>
     </th>
-    <th><img src="IMAGES/Pamphlet 02.png" height="300px"/></th>
-    <th><img src="IMAGES/Pamphlet 03.png" height="300px"/></th>
-    <th><img src="IMAGES/Pamphlet 04.png" height="300px"/></th>
-    <th><img src="IMAGES/Pamphlet 05.png" height="300px"/></th>
+    <th>
+        <a href="IMAGES/Pamphlet 02.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 02.png" alt="Page 2">
+        </a>
+    </th>
+    <th>
+        <a href="IMAGES/Pamphlet 03.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 03.png" alt="Page 3">
+        </a>
+    </th>
+    <th>
+        <a href="IMAGES/Pamphlet 04.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 04.png" alt="Page 4">
+        </a>
+    </th>
+    <th>
+        <a href="IMAGES/Pamphlet 05.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 05.png" alt="Page 5">
+        </a>
+    </th>
   </tr>
   <!-- Row 2 -->
   <tr>
-    <td><img src="IMAGES/Pamphlet 06.png" height="300px"/></td>
-    <td><img src="IMAGES/Pamphlet 07.png" height="300px"/></td>
-    <td><img src="IMAGES/Pamphlet 08.png" height="300px"/></td>
-    <td><img src="IMAGES/Pamphlet 09.png" height="300px"/></td>
-    <td><img src="IMAGES/Pamphlet 10.png" height="300px"/></td>
+    <td>
+        <a href="IMAGES/Pamphlet 06.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 06.png" alt="Page 6">
+        </a>
+    </td>
+    <td>
+        <a href="IMAGES/Pamphlet 07.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 07.png" alt="Page 7">
+        </a>
+    </td>
+    <td>
+        <a href="IMAGES/Pamphlet 08.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 08.png" alt="Page 8">
+        </a>
+    </td>
+    <td>
+        <a href="IMAGES/Pamphlet 09.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 09.png" alt="Page 9">
+        </a>
+    </td>
+    <td>
+        <a href="IMAGES/Pamphlet 10.png" target="_blank" rel="noopener noreferrer">
+            <img src="IMAGES/web/Pamphlet 10.png" alt="Page 10">
+        </a>
+    </td>
   </tr>
 </table>
 
