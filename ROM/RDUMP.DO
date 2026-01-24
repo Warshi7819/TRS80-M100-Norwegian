@@ -1,4 +1,4 @@
-10 REM RAM Dump Utility by Clinton Reddekop (January 2026)
+10 REM ROM Dump Utility by Clinton Reddekop (January 2026)
 20 REM       Dumps the contents of RAM over serial
 100 open "com:58N1E" for output as 1
 120 sum=0
