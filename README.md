@@ -1,4 +1,5 @@
-<img width="1742" height="670" alt="charset menu" src="https://github.com/user-attachments/assets/e8316504-b649-477b-b2cb-23c17f41c70b" /># The Norwegian TRS80 Model 100
+# The Norwegian TRS80 Model 100
+
 <table>
   <tr>
     <td>
