@@ -21,7 +21,7 @@ The user B9 then helped me to convert the hex file to a rom file using the unix 
 
 ```
 10 REM ROM Dump Utility by Clinton Reddekop (January 2026)
-20 REM       Dumps the contents of RAM over serial
+20 REM    Dumps the contents of main ROM over serial
 100 open "com:58N1E" for output as 1
 120 sum=0
 140 for a=0to32767
