@@ -169,7 +169,7 @@ The following menu will be presented:
 > [!NOTE]
 > Translated to English the program menu says:
 > 
-> Character set Definition
+> Definition of Character Set
 >
 > **1:** Norwegian Telecom   **2:** English Telecom
 >
@@ -177,7 +177,7 @@ The following menu will be presented:
 >
 > **4:** CR & LF             **5:** CR
 >
->          **F8** - Menu
+> **F8:** Menu
 >
 > Please input choice
 
