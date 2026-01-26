@@ -167,6 +167,21 @@ The following menu will be presented:
 </a>
 
 > [!NOTE]
+> Translated to English the program menu says:
+> 
+> Character set Definition
+>
+> **1:** Norwegian Telecom   **2:** English Telecom
+>
+> **3:** Norwegian Printer   **4:** English Printer
+>
+> **4:** CR & LF             **5:** CR
+>
+>          **F8** - Menu
+>
+> Please input choice
+
+> [!NOTE]
 > I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
 
 ## ROM Dump
