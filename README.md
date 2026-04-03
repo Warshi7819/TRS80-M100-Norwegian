@@ -20,7 +20,7 @@ As you can see we could buy a real Norwegian versions of the TRS-80 Model 100 ba
 As I was working on and documenting my simple program [M100Link](https://github.com/Warshi7819/M100Link) for transfering files to and from it I also learned that there is still quite the interest for these small machines and also the different nationalized versions. In this repository I will therefore try to store what I have learned/documented about my Norwegian: **Tele - Modell 100 - Bærbar Tekstterminal**. Which translates to: Tele - Model 100 - Portable Text Terminal. 
 
 ## Norwegian Pamphlet
-This pamphlet in Norwegian was included with the unit. It's basically a Quick Start Guide that explains the most important functions. With regards to BASIC it doesn't tell you much other than how to set the Date, Day and Time. The full RadioShack TRS-80 Model 100 manual was also included (English version). 
+This pamphlet in Norwegian was included with the unit. It's basically a Quick Start Guide that explains the most important functions.  
 
 <table>
   <!-- Row 1 -->
@@ -82,7 +82,7 @@ This pamphlet in Norwegian was included with the unit. It's basically a Quick St
 </table>
 
 ## Packaging
-The box itself is also nationalized and you can see that it's the Norwegian TRS-80 model 100 that is depict on the front. Also, all text is in Norwegian.
+The box itself is also nationalized and you can see that it's the Norwegian TRS-80 model 100 that is depict on the front and back. Also, all text is in Norwegian.
 
 <table>
   <tr>
@@ -132,7 +132,7 @@ The box itself is also nationalized and you can see that it's the Norwegian TRS-
 ## What Was Included?
 In addition to the unit itself, the following was present in the box:
 * The Norwegian Get Started Guide (Pamphlet)
-* The TRS-80 Model 100 Quick Reference Guide (English) - [Available Here](https://manx-docs.org/mirror/harte/Radio%20Shack/TRS-80%20Model%20100%20Quick%20Reference%20Guide.pdf)
+* The TRS-80 Model 100 Quick Reference Guide (English language) - [Available Here](https://manx-docs.org/mirror/harte/Radio%20Shack/TRS-80%20Model%20100%20Quick%20Reference%20Guide.pdf)
 * The full TRS-80 Model 100 Manual from Radio Shack (English language) - [Available Here](https://archive.org/details/trs-80-m-100-user-guide)
 * The needed cables to hook it up to the phone line of the time
 * A Cassette - See section below.
@@ -165,6 +165,21 @@ The following menu will be presented:
 <a href="IMAGES/charset menu.png" target="_blank" rel="noopener noreferrer">
     <img src="IMAGES/web/charset menu.png" alt="Char Set Menu">
 </a>
+
+> [!NOTE]
+> Translated to English the program menu says:
+> 
+> Definition of Character Set
+>
+> **1:** Norwegian Telecom   **2:** English Telecom
+>
+> **3:** Norwegian Printer   **4:** English Printer
+>
+> **4:** CR & LF             **5:** CR
+>
+> **F8:** Menu
+>
+> Please input choice
 
 > [!NOTE]
 > I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
@@ -213,7 +228,7 @@ The script probably took close to 30 minutes to complete at 1200 bauds over seri
 **CUSTOM MFD. IN JAPAN FOR TANDY CORPORATION**
 
 > [!NOTE]
-> "Tillatelse nr." translates to Permit number. 
+> "Tillatelse nr." translates to Permit number. The number suggest that the permit was secured in 1984.
 
 ## IMAGES
 I used the [PerspectiveFix](https://oathanrex.github.io/perspective-fix/) free online tool to straighten out the images of the pamphlet and the box. The original images are there as well if I at some point find a better free tool. But quite happy with the results!
