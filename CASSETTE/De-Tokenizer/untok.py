@@ -1,13 +1,25 @@
 ### Implemented based on the work of Clinton Reddekop's and his untok program. And the feedback of HackerB9!
+### The main difference is that this program is implemented in Python and it also handles the following special cases:
+### 1) Don't try to detokenize inside quotes. 
+### 2) Handle the special case of the single quote character that is expanded to three characters when tokenized (:REM').
 ###
+### 2026.04.03 - RetroAndGaming
 
-
-
+# Python Modules
 import argparse
 
+# 3rd Party Modules
+
+# Own Modules
+
+##########################################
 
 class DeTokenizer:
     def __init__(self):
+        """
+        Class constructor. Init the list of special tokens and some control logic vars.
+        """
+
         self.tokens = [
             "END",      "FOR",      "NEXT",     "DATA",     "INPUT",    "DIM",      "READ",     "LET",
             "GOTO",     "RUN",      "IF",       "RESTORE",  "GOSUB",    "RETURN",   "REM",      "STOP",
@@ -38,6 +50,11 @@ class DeTokenizer:
         self.tokenizeBuffer = []
 
     def detokenize(self, hexValue):
+        """
+        As we stream the file from disk, every hex value is passed to this function.
+        The method will return the appropriate detokenized value to be printed.
+        """
+
         # check if files start with 0x8D. if so, discard it. This is probably a stray 
         # token from the wav2cas processing because the header is not recognized.
         if self.firstValue:
@@ -58,11 +75,10 @@ class DeTokenizer:
             if self.lineChar == 3:
                 lineNumber = str(int.from_bytes(self.bytesList, byteorder='little'))
                 self.bytesList = []
-                return  lineNumber + " "
+                return  lineNumber + " " # Not sure if you should add a space after line num in all cases but it does make my example files look better at least...
             else:
-                return ""      
+                return ""     
 
-        
         # We need to buffer hex values so that we can handle the :REM' pattern correctly.
         self.tokenizeBuffer.append(hexValue)
 
@@ -78,10 +94,14 @@ class DeTokenizer:
                 self.tokenizeBuffer = []
                 return "'"
         
+        # Flush the buffer to output
         return self.flushBuffer()
 
 
     def flushBuffer(self):
+        """
+        Method to flush the current buffer to output. 
+        """
         # Handle the normal detokenization. The buffer may contain only one char, or several chars.
         returnString = ""
         for hexValue in self.tokenizeBuffer:
