@@ -99,6 +99,7 @@ class DeTokenizer:
                 self.bytesList = []
                 return  lineNumber + " " # Not sure if you should add a space after line num in all cases but it does make my example files look better at least...
             else:
+                # Skip byte 0 and 1 as we do not need the RAM addresses to reconstruct the listing.
                 return ""     
 
         # We need to buffer hex values so that we can handle the :REM' pattern correctly.
