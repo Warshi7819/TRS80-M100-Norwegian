@@ -182,7 +182,13 @@ The following menu will be presented:
 > Please input choice
 
 > [!NOTE]
-> I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
+> I have managed to dump the cassette and translate it back to the BASIC listings.
+> 
+> RESRAM can be found here: (<a href="CASSETTE/RESRAM.ba" target="_blank" rel="noopener noreferrer">original</a>, <a href="CASSETTE/RESRAM_english.ba" target="_blank" rel="noopener noreferrer">english translation</a>)
+>
+> INSTAL can be found here: (original, english translation)
+>
+> Thanks to Clinton and B9 over at the M100 mailing list! 
 
 ## ROM Dump
 With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script (RDUMP.DO), the raw output (raw_output.txt) of the script and the hexified version (hex_version.txt) is available in the ROM folder. The hexified version was created by myself by reading each byte value into a python script and then outputing each byte value as hex pairs using the following conversion: **format(int(value), '02X')**.
