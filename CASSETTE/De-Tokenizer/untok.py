@@ -1,9 +1,29 @@
-### Implemented based on the work of Clinton Reddekop's and his untok program. And the feedback of HackerB9!
-### The main difference is that this program is implemented in Python and it also handles the following special cases:
-### 1) Don't try to detokenize inside quotes. 
-### 2) Handle the special case of the single quote character that is expanded to three characters when tokenized (:REM').
-###
-### 2026.04.03 - RetroAndGaming
+#############################################################################
+# Application : untok - De-Tokenize BASIC script for the TRS-80 M100        #
+#  * Input should be a hex dump of the tokenized script                     #
+#                                                                           #
+# Implemented based on the GREAT work of Clinton Reddekop and his untok     #
+# program. + the feedback of HackerB9. Without that blueprint code I would  #
+# have spent ages trying to understand this myself. Especially how          #
+# to extract the line numbers...                                            #
+#                                                                           #
+# The main difference between this program and Clinton's untok program      #
+# written in C is that this program handles the following special cases:    #
+# 1) Don't try to detokenize inside quotes.                                 #
+# 2) Handle the special case of the single quote character that is          #
+#  expanded to three characters when tokenized (:REM').                     #
+#                                                                           #
+# File: untok.py                                                            #
+# Author      : Retro & Gaming (2026)                                       #
+# Date        : 15:32 2026.04.03                                            #
+#############################################################################
+#                                                                           #
+# https://github.com/Warshi7819/TRS80-M100-Norwegian                        #
+#                                                                           #
+#############################################################################
+
+# Refs:
+# - http://justsolve.archiveteam.org/wiki/Tandy_200_BASIC_tokenized_file
 
 # Python Modules
 import argparse
@@ -12,7 +32,7 @@ import argparse
 
 # Own Modules
 
-##########################################
+#############################################################################
 
 class DeTokenizer:
     def __init__(self):
@@ -45,18 +65,19 @@ class DeTokenizer:
         self.insideQuotes = False
 
         # When tokenizing, the single quote character expands to three characters: a colon (3A), the byte for REM (8E), and then FF.
-        # When detokenizing, we need to check for this pattern and convert it back to a single quote character.
+        # When detokenizing a stream, we need to buffer and check for this pattern and convert it back to a single quote character.
         # REF: http://justsolve.archiveteam.org/wiki/Tandy_200_BASIC_tokenized_file
         self.tokenizeBuffer = []
 
     def detokenize(self, hexValue):
         """
         As we stream the file from disk, every hex value is passed to this function.
-        The method will return the appropriate detokenized value to be printed.
+        The method will return the appropriate detokenized value(s) to be printed.
         """
 
         # check if files start with 0x8D. if so, discard it. This is probably a stray 
         # token from the wav2cas processing because the header is not recognized.
+        # Probably not a common problem for real tokenized BASIC scripts.
         if self.firstValue:
             self.firstValue = False
             if hexValue == 0x8D:
@@ -67,8 +88,8 @@ class DeTokenizer:
         self.lineChar += 1
 
         # Check if we are on a new line, then we need to extract the line number. 
-        # First two hex values can be discarded. 
-        # Then the next two hex values will contain the line number (int, little endian)
+        # First two hex values can be discarded (This is the address in RAM of the next line of BASIC; unsigned 16-bit integer, little-endian.).
+        # Then the next two hex values will contain the line number (unsigned 16-bit integer, little-endian.)
         if self.lineChar < 4:
             if self.lineChar == 2:
                 self.bytesList.append(hexValue)
@@ -82,7 +103,8 @@ class DeTokenizer:
         # We need to buffer hex values so that we can handle the :REM' pattern correctly.
         self.tokenizeBuffer.append(hexValue)
 
-        # We need to handle that special case of the single quote character that is expanded to three characters when tokenized (:REM').
+        # We need to handle that special case of the single quote character that is expanded to 
+        # three characters when tokenized (:REM').
         if hexValue == 0x3A:
             if len(self.tokenizeBuffer) == 1:
                 return ""
@@ -91,6 +113,8 @@ class DeTokenizer:
                 return ""
         elif hexValue == 0xFF:
             if len(self.tokenizeBuffer) == 3:
+                # Special sequence recognized (3A 8E FF), flush the buffer and return the 
+                # single quote character.
                 self.tokenizeBuffer = []
                 return "'"
         
@@ -102,6 +126,7 @@ class DeTokenizer:
         """
         Method to flush the current buffer to output. 
         """
+
         # Handle the normal detokenization. The buffer may contain only one char, or several chars.
         returnString = ""
         for hexValue in self.tokenizeBuffer:
@@ -120,7 +145,7 @@ class DeTokenizer:
             elif hexValue == 0x00:
                 # We have a new line!
                 self.lineChar = -1
-                self.insideQuotes = False # A special case is that the line can end without a closing quote and still be valid syntas. Need to handle that.
+                self.insideQuotes = False # A special case is that the line can end without a closing quote and still be valid syntax. Need to handle that.
                 returnString += "\n"
             else:
                 # If less than 0x80 or inside quotes we just try to convert it to a char.
@@ -132,6 +157,7 @@ class DeTokenizer:
 
 # Main program entry point.
 if __name__ == "__main__":
+    # Parse command line arguments to get input file.
     parser = argparse.ArgumentParser(description="De-Tokenize the given file of hex.")
     parser.add_argument(
         "-f", "--filename",
@@ -141,6 +167,7 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
+    # Setup the DeTokenizer and do the work.
     detok = DeTokenizer()
     with open(args.filename, 'r') as f:
         for line in f:
@@ -150,4 +177,3 @@ if __name__ == "__main__":
 
     # Flush buffer at the end as it might still contain data.
     print(detok.flushBuffer(), end="")
-
