@@ -151,6 +151,7 @@ class DeTokenizer:
                 returnString += "\n"
             else:
                 # If less than 0x80 or inside quotes we just try to convert it to a char.
+                #returnString += hexValue.to_bytes().decode('cp865')
                 returnString += chr(hexValue)
 
         self.tokenizeBuffer = []
