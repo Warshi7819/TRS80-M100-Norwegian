@@ -184,9 +184,9 @@ The following menu will be presented:
 > [!NOTE]
 > I have managed to dump the cassette and translate it back to the BASIC listings.
 > 
-> RESRAM can be found here: (<a href="CASSETTE/RESRAM.ba" target="_blank" rel="noopener noreferrer">original</a>, <a href="CASSETTE/RESRAM_english.ba" target="_blank" rel="noopener noreferrer">english translation</a>)
+> RESRAM can be found here: (<a href="CASSETTE/resram.ba" target="_blank" rel="noopener noreferrer">original</a>, <a href="CASSETTE/resram_english.ba" target="_blank" rel="noopener noreferrer">english translation</a>)
 >
-> INSTAL can be found here: (original, english translation)
+> INSTAL can be found here: (<a href="CASSETTE/install.ba" target="_blank" rel="noopener noreferrer">original</a>, <a href="CASSETTE/install_english.ba" target="_blank" rel="noopener noreferrer">english translation</a>)
 >
 > Thanks to Clinton and B9 over at the M100 mailing list! 
 
