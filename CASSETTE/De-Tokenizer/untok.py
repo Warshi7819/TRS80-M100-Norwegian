@@ -94,6 +94,7 @@ class DeTokenizer:
             if self.lineChar == 2:
                 self.bytesList.append(hexValue)
             if self.lineChar == 3:
+                self.bytesList.append(hexValue)
                 lineNumber = str(int.from_bytes(self.bytesList, byteorder='little'))
                 self.bytesList = []
                 return  lineNumber + " " # Not sure if you should add a space after line num in all cases but it does make my example files look better at least...
@@ -114,7 +115,7 @@ class DeTokenizer:
         elif hexValue == 0xFF:
             if len(self.tokenizeBuffer) == 3:
                 # Special sequence recognized (3A 8E FF), flush the buffer and return the 
-                # single quote character.
+                # single quote character '.
                 self.tokenizeBuffer = []
                 return "'"
         
