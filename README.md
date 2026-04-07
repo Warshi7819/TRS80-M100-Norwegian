@@ -192,15 +192,28 @@ The following menu will be presented:
 
 ## The Missing Chars
 Turns out that there is another difference between this Norwegian unit and those sold in the US. Char 224 up until and including char 254 are blank! On the units sold in America these sequence of chars contains different shapes (drawing characters):
-<image>
+
+<a href="CHAR%20DIFFERENCE/en_chars.png" target="_blank" rel="noopener noreferrer">
+    <img src="CHAR%20DIFFERENCE/en_chars.png" alt="Front Of The Unit" height="120px">
+</a>
 
 Whereas on the Norwegian unit they are completely blank:
-<image>
-There are quite a few drawing characters left though between 128 and 224 but missing these 30 chars will of course impact programs that use them. And I actually immediatly ran into this problem as one of the first games I tried was FROGER on the M100. Looking at the top line of FROGER this is where you are going to park the frog once you have crossed the river. This is how the parking spots looks like on a US unit:
-<image>
+
+<a href="CHAR%20DIFFERENCE/no_chars.png" target="_blank" rel="noopener noreferrer">
+    <img src="CHAR%20DIFFERENCE/no_chars.png" alt="Front Of The Unit" height="120px">
+</a>
+
+There are quite a few drawing characters left though between 128 and 224 but missing these 30 chars will of course impact programs that use them. And I actually immediatly ran into this problem as one of the first games I tried was FROGER on the M100. The top line is supposed to have open slots where you are going to park the frog once you have crossed the river. This is how the parking spots looks like on an US unit:
+
+<a href="CHAR%20DIFFERENCE/en_frogger.png" target="_blank" rel="noopener noreferrer">
+    <img src="CHAR%20DIFFERENCE/en_frogger.png" alt="Front Of The Unit" height="120px">
+</a>
 
 The top line is drawn with a combination of chr(239) which is a solid block and spaces for where you should park Mr. Froggy. And yeah, I'm sure you have discovered the problem. On the Norwegian unit both chr(239) and space is blank so the entire top line is just continouse blanks:
-<image>
+
+<a href="CHAR%20DIFFERENCE/no_frogger.png" target="_blank" rel="noopener noreferrer">
+    <img src="CHAR%20DIFFERENCE/no_frogger.png" alt="Front Of The Unit" height="120px">
+</a>
 
 This makes it a bit tough to play the game as the parking spots are not visible anymore. Unless you go into the BASIC script and replace all the occurances of chr(239) to for instance chr(255) that is. Chr(255) is a different block drawing char that works as well. Then we get something similar on the Norwegian unit as well!
 <image>
