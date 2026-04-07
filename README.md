@@ -182,7 +182,29 @@ The following menu will be presented:
 > Please input choice
 
 > [!NOTE]
-> I have not dumped the content of the cassette yet but this is something I plan to do. I just need to setup my good cassette player for recording the content to my PC. 
+> I have managed to dump the cassette and translate it back to the BASIC listings.
+> 
+> RESRAM can be found here: (<a href="CASSETTE/resram.ba" target="_blank" rel="noopener noreferrer">original</a>, <a href="CASSETTE/resram_english.ba" target="_blank" rel="noopener noreferrer">english translation</a>)
+>
+> INSTAL can be found here: (<a href="CASSETTE/install.ba" target="_blank" rel="noopener noreferrer">original</a>, <a href="CASSETTE/install_english.ba" target="_blank" rel="noopener noreferrer">english translation</a>)
+>
+> Thanks to Clinton and B9 over at the M100 mailing list! 
+
+## The Missing Chars
+Turns out that there is another difference between this Norwegian unit and those sold in the US. Char 224 up until and including char 254 are blank! On the units sold in America these sequence of chars contains different shapes (drawing characters):
+<image>
+
+Whereas on the Norwegian unit they are completely blank:
+<image>
+There are quite a few drawing characters left though between 128 and 224 but missing these 30 chars will of course impact programs that use them. And I actually immediatly ran into this problem as one of the first games I tried was FROGER on the M100. Looking at the top line of FROGER this is where you are going to park the frog once you have crossed the river. This is how the parking spots looks like on a US unit:
+<image>
+
+The top line is drawn with a combination of chr(239) which is a solid block and spaces for where you should park Mr. Froggy. And yeah, I'm sure you have discovered the problem. On the Norwegian unit both chr(239) and space is blank so the entire top line is just continouse blanks:
+<image>
+
+This makes it a bit tough to play the game as the parking spots are not visible anymore. Unless you go into the BASIC script and replace all the occurances of chr(239) to for instance chr(255) that is. Chr(255) is a different block drawing char that works as well. Then we get something similar on the Norwegian unit as well!
+<image>
+
 
 ## ROM Dump
 With the help of the people on the [M100 maling](http://lists.bitchin100.com/listinfo.cgi/m100-bitchin100.com) list I finally got my hands on a working script that outputs the entire ROM as a comma seperated list of bytes (0-255) over serial. The script (RDUMP.DO), the raw output (raw_output.txt) of the script and the hexified version (hex_version.txt) is available in the ROM folder. The hexified version was created by myself by reading each byte value into a python script and then outputing each byte value as hex pairs using the following conversion: **format(int(value), '02X')**.
