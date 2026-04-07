@@ -216,7 +216,10 @@ The top line is drawn with a combination of chr(239) which is a solid block and 
 </a>
 
 This makes it a bit tough to play the game as the parking spots are not visible anymore. Unless you go into the BASIC script and replace all the occurances of chr(239) to for instance chr(255) that is. Chr(255) is a different block drawing char that works as well. Then we get something similar on the Norwegian unit as well!
-<image>
+
+<a href="CHAR%20DIFFERENCE/no_frogger_fixed.png" target="_blank" rel="noopener noreferrer">
+    <img src="CHAR%20DIFFERENCE/no_frogger_fixed.png" alt="Front Of The Unit" height="120px">
+</a>
 
 
 ## ROM Dump
