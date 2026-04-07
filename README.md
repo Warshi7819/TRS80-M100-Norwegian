@@ -203,7 +203,7 @@ Whereas on the Norwegian unit they are completely blank:
     <img src="CHAR%20DIFFERENCE/no_chars.png" alt="Front Of The Unit" height="120px">
 </a>
 
-There are quite a few drawing characters left though between 128 and 224 but missing these 30 chars will of course impact programs that use them. And I actually immediatly ran into this problem as one of the first games I tried was FROGER on the M100. Looking at the top line of FROGER this is where you are going to park the frog once you have crossed the river. This is how the parking spots looks like on a US unit:
+There are quite a few drawing characters left though between 128 and 224 but missing these 30 chars will of course impact programs that use them. And I actually immediatly ran into this problem as one of the first games I tried was FROGER on the M100. The top line is supposed to have open slots where you are going to park the frog once you have crossed the river. This is how the parking spots looks like on an US unit:
 
 <a href="CHAR%20DIFFERENCE/en_frogger.png" target="_blank" rel="noopener noreferrer">
     <img src="CHAR%20DIFFERENCE/en_frogger.png" alt="Front Of The Unit" height="120px">
