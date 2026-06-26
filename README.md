@@ -253,7 +253,7 @@ The script probably took close to 30 minutes to complete at 1200 bauds over seri
   </tr>
   <tr>
     <td><b>CAT NO</b></td>
-    <td>269-9101</td>
+    <td>269-9101 A</td>
     <td><b>TV NR</b></td>
     <td>25-132-4248</td>
   </tr>
